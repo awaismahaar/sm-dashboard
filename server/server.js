@@ -27,6 +27,7 @@ app.use(morgan("dev"));
 app.use("/api/users", userRoutes);
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => {
+/* app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
-});
+}); */
+export default app;
